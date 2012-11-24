@@ -17,4 +17,4 @@ make clean
 
 make arch=arm t0tmo_04_defconfig 
 
-make (make -j<processor count> for faster build time)
+make (make -j\<processor count\> for faster build time)
