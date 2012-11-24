@@ -14,5 +14,7 @@ Open Makefile with some editor.
 Change the CROSS_COMPILE flag to a proper build toolchain for Android.
 
 make clean
+
 make arch=arm t0tmo_04_defconfig 
+
 make (make -j<processor count> for faster build time)
