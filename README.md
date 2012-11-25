@@ -11,7 +11,7 @@ This Kernel should preserve all of the S-Pen functionality.
 ===========================================
 TO BUILD
 Open Makefile with some editor.
-Change the CROSS_COMPILE flag to a proper build toolchain for Android.
+Change the CROSS_COMPILE flag to a point to a proper build toolchain for Android. It is reccommended to use the full absolute path to the toolchain, rather than a relative directory like ~/somepath
 
 make clean
 
